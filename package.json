@@ -1,0 +1,17 @@
+{
+  "name": "cimetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "~/mongoose -d pixi-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pixi/layers": "^2.1.0",
+    "pixi-spine": "^4.0.4",
+    "pixi.js": "^7.4.0"
+  }
+}

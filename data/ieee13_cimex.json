@@ -1,0 +1,3340 @@
+{
+  "status": 0,
+  "statusMessage": "",
+  "id": "56ccd7b7-6c03-47ca-b158-dc446da4e8ae",
+  "specversion": "1.0",
+  "source": "",
+  "type": "",
+  "datacontenttype": "",
+  "subject": "",
+  "time": "2024-02-21T16:55:48Z",
+  "data": {
+    "breaker": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "18a74588-a787-4c9f-b953-93b69b29ce7b",
+        "name": "breaker",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 0,
+            "y": 2
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+        "siblings": [
+          "18a74588-a787-4c9f-b953-93b69b29ce7b"
+        ],
+        "feederHead": true,
+        "phase": "ABC",
+        "baseVoltage": 115000,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "313ec703-63fa-47cf-b70d-91bf490186cb",
+        "name": "r2",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 0,
+            "y": -6
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "323bba13-a180-42ae-bda3-d551845c4c39",
+            "type": "intersections"
+          },
+          {
+            "mrid": "7ca22055-3a7d-4f84-9b84-a1a2275391fa",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb0323bba13-a180-42ae-bda3-d551845c4c396110b1f0-1bc2-467b-98fd-656f931dad787ca22055-3a7d-4f84-9b84-a1a2275391fafa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "313ec703-63fa-47cf-b70d-91bf490186cb"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a",
+        "name": "rder692",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 5,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "884a844c-6829-4951-8af4-252043e4fbc1",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "181ff5ab-23d8-44e7-9546-973017a8c45f884a844c-6829-4951-8af4-252043e4fbc1a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "siblings": [
+          "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "6e86c913-aaf2-445f-b8f9-d4f754096186",
+        "name": "rder680",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 0,
+            "y": -15
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "966bcf17-11a2-4d62-a05c-b809b6790d85",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "52283a35-2356-4377-9a74-da2d74985c30",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "52283a35-2356-4377-9a74-da2d74985c30966bcf17-11a2-4d62-a05c-b809b6790d85b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+        "siblings": [
+          "6e86c913-aaf2-445f-b8f9-d4f754096186"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "851c9d81-c13b-49c4-941d-fbce6d2bfc12",
+        "name": "rder633",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 5,
+            "y": -4
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c77fc426-f3c1-419c-b840-5ae4d3615797",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "323bba13-a180-42ae-bda3-d551845c4c39",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb0323bba13-a180-42ae-bda3-d551845c4c39c77fc426-f3c1-419c-b840-5ae4d3615797",
+        "siblings": [
+          "851c9d81-c13b-49c4-941d-fbce6d2bfc12"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "97b59eae-6cf5-43cf-a89f-d5193fa28e11",
+        "name": "rder675",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 10,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3419929c-da14-4581-9300-a5b9e1090162",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "181ff5ab-23d8-44e7-9546-973017a8c45f3419929c-da14-4581-9300-a5b9e1090162a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "siblings": [
+          "97b59eae-6cf5-43cf-a89f-d5193fa28e11"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "name": "r5",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": 2,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+            "type": "intersections"
+          },
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "181ff5ab-23d8-44e7-9546-973017a8c45f3963b75c-913b-4a8b-9463-cc45eb6dc21d4c42fd6c-075f-49e0-8e10-e8890f0a0c8a4fa4e36f-9861-4da4-b834-4ee301ed340b52d8f4b7-1fc0-48e4-a5ba-8c87a52789a997b59eae-6cf5-43cf-a89f-d5193fa28e11d89c3396-1560-4288-b292-549576cd4109fa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "a0f00b95-bb73-4e6e-82bb-1c320fcf6adc"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "name": "r1",
+        "equipmentType": "breaker",
+        "location": [
+          {
+            "x": -2,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "323bba13-a180-42ae-bda3-d551845c4c39",
+            "type": "intersections"
+          },
+          {
+            "mrid": "4102d113-7a3b-4d59-8047-5f64860192b6",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb02a266eb3-b666-4bae-8f75-b6fb07915313323bba13-a180-42ae-bda3-d551845c4c39398b9855-636f-42d1-aa7e-cc378b9e90224102d113-7a3b-4d59-8047-5f64860192b6",
+        "siblings": [
+          "dd894cc5-d97d-4ea3-a5b9-e6fc466a332f"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      }
+    ],
+    "generatingUnit": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "760b289f-eb3b-4100-9bfe-64a2327edd91",
+        "name": "dg690",
+        "equipmentType": "generatingUnit",
+        "location": [
+          {
+            "x": 1,
+            "y": -18
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "8c73bb21-0355-4a4b-8ea8-0b7c1d5e863a",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "8c73bb21-0355-4a4b-8ea8-0b7c1d5e863a966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "siblings": [
+          "760b289f-eb3b-4100-9bfe-64a2327edd91"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "ratedS": 0,
+        "powerFactor": 0
+      }
+    ],
+    "linearShuntCompensator": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "c67e4842-7113-4259-8baf-7cae56d8ee35",
+        "name": "c611",
+        "equipmentType": "linearShuntCompensator",
+        "location": [
+          {
+            "x": -12,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3963b75c-913b-4a8b-9463-cc45eb6dc21d5d79dd2b-0596-4c45-a84f-2b41999d55eefa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "c67e4842-7113-4259-8baf-7cae56d8ee35"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "bPerSection": 1,
+        "vars": 99999.99998935073,
+        "nomU": 316.227766
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "d89c3396-1560-4288-b292-549576cd4109",
+        "name": "c675",
+        "equipmentType": "linearShuntCompensator",
+        "location": [
+          {
+            "x": 12,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "181ff5ab-23d8-44e7-9546-973017a8c45f836ba58a-b4ef-4133-888c-820df6980068a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "siblings": [
+          "d89c3396-1560-4288-b292-549576cd4109"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "bPerSection": 1,
+        "vars": 599999.9996258956,
+        "nomU": 774.596669
+      }
+    ],
+    "lineSegment": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "0978d4d1-0369-4162-8083-5548dd8f1b21",
+        "name": "conductor_7",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -5
+          },
+          {
+            "x": -2,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+            "type": "breaker"
+          },
+          {
+            "mrid": "3ccc8930-8e8b-4185-9e7e-6d09ea375fab",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "3ccc8930-8e8b-4185-9e7e-6d09ea375fabdd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "186df14e-4b50-4733-aed5-c5d48ad363c1",
+        "name": "conductor_45",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -5
+          },
+          {
+            "x": 5,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c8f56ac1-5634-4cf9-ae27-3f7eab47ba16",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "71b7a221-cca4-42be-b20f-b382a7d72dd3",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "3ccc8930-8e8b-4185-9e7e-6d09ea375fab",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "3ccc8930-8e8b-4185-9e7e-6d09ea375fab71b7a221-cca4-42be-b20f-b382a7d72dd3c8f56ac1-5634-4cf9-ae27-3f7eab47ba16",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34",
+        "name": "conductor_37",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -5,
+            "y": -10
+          },
+          {
+            "x": -10,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "a6c81a17-dc66-47ff-8aef-a247bedb139d",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "5d79dd2b-0596-4c45-a84f-2b41999d55ee",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "b540de9a-7a0f-4c4f-9caa-9a60ae68959d",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "a4e5fc20-2e76-4193-be73-9a81028823f7",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "5d79dd2b-0596-4c45-a84f-2b41999d55eea4e5fc20-2e76-4193-be73-9a81028823f7a6c81a17-dc66-47ff-8aef-a247bedb139db540de9a-7a0f-4c4f-9caa-9a60ae68959d",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "2dd7dbb8-6e32-443c-b5da-e57b30c3d557",
+        "name": "conductor_16",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -10
+          },
+          {
+            "x": 0,
+            "y": -11
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+            "type": "recloser"
+          },
+          {
+            "mrid": "986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "986d00b9-4f75-4478-a528-2b2ea6a48d3cb1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "2f240e10-00a9-4d17-b1fc-18d87dba35a4",
+        "name": "conductor_40",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -5,
+            "y": -10
+          },
+          {
+            "x": -5,
+            "y": -15
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "44c35b4d-93eb-4eac-b0e9-3e2f4028ed4b",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "a4e5fc20-2e76-4193-be73-9a81028823f7",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "44c35b4d-93eb-4eac-b0e9-3e2f4028ed4ba4e5fc20-2e76-4193-be73-9a81028823f7",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "376e3412-1df5-4604-a716-0854efd69a9b",
+        "name": "conductor_14",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -7
+          },
+          {
+            "x": 0,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fa1d8d79-8099-4040-b97f-4f0de037f331",
+            "type": "recloser"
+          },
+          {
+            "mrid": "513aaaa8-e01c-4871-a4ad-824a5c25b440",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "513aaaa8-e01c-4871-a4ad-824a5c25b440fa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "383730b3-5798-4a7c-bcb0-d32197ce6ee6",
+        "name": "conductor_25",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 2,
+            "y": -10
+          },
+          {
+            "x": 5,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "cb29e077-0ff0-4c84-9040-05458b61e0a3",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "b0bf1bbc-eb07-4e56-9682-548b07c15856",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "8357d9c9-acb7-4f2f-909a-5444f2a339f5",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "8357d9c9-acb7-4f2f-909a-5444f2a339f5a0f00b95-bb73-4e6e-82bb-1c320fcf6adcb0bf1bbc-eb07-4e56-9682-548b07c15856cb29e077-0ff0-4c84-9040-05458b61e0a3",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "3ccc8930-8e8b-4185-9e7e-6d09ea375fab",
+        "name": "conductor_6",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -3
+          },
+          {
+            "x": 0,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "0978d4d1-0369-4162-8083-5548dd8f1b21",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "85e94e05-089d-44ba-b7b5-ab1b78258cff",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "186df14e-4b50-4733-aed5-c5d48ad363c1",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+            "type": "recloser"
+          }
+        ],
+        "connectedString": "0978d4d1-0369-4162-8083-5548dd8f1b2114e10597-b3a2-49df-9c96-11726f937fb0186df14e-4b50-4733-aed5-c5d48ad363c185e94e05-089d-44ba-b7b5-ab1b78258cff",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "3ef0ad64-8f86-425f-9c65-e4d7747b0cac",
+        "name": "conductor_21",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -16.5
+          },
+          {
+            "x": -1,
+            "y": -18
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3bda2cb0-6e39-40ca-84de-d58b99e7e40e",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "966bcf17-11a2-4d62-a05c-b809b6790d85",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "3bda2cb0-6e39-40ca-84de-d58b99e7e40e966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "41b1d0cd-cfb5-4ecb-8433-4971e49a78ae",
+        "name": "conductor_23",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -10
+          },
+          {
+            "x": 1,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "6a6ce283-ca69-4002-ae48-32c9eb58b32f",
+            "type": "load"
+          },
+          {
+            "mrid": "986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "6a6ce283-ca69-4002-ae48-32c9eb58b32f986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "44c35b4d-93eb-4eac-b0e9-3e2f4028ed4b",
+        "name": "conductor_41",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -5,
+            "y": -15
+          },
+          {
+            "x": -5,
+            "y": -17
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "a0cb45a6-a964-4621-949c-805b23a191c8",
+            "type": "load"
+          },
+          {
+            "mrid": "2f240e10-00a9-4d17-b1fc-18d87dba35a4",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "2f240e10-00a9-4d17-b1fc-18d87dba35a4a0cb45a6-a964-4621-949c-805b23a191c8",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "45d26047-ed20-46df-ad7b-68483aa0d90a",
+        "name": "conductor_42",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -5,
+            "y": -10
+          },
+          {
+            "x": -5,
+            "y": -9.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fb99f1a1-fbd0-481e-9206-067466e97bab",
+            "type": "load"
+          },
+          {
+            "mrid": "a4e5fc20-2e76-4193-be73-9a81028823f7",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "a4e5fc20-2e76-4193-be73-9a81028823f7fb99f1a1-fbd0-481e-9206-067466e97bab",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "468ce432-75e5-4f96-b99e-3807bdd28e0d",
+        "name": "conductor_5",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -2.5
+          },
+          {
+            "x": 0,
+            "y": -3
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+            "type": "recloser"
+          },
+          {
+            "mrid": "842c504d-eee2-40f5-bd57-a578067edc4b",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb0842c504d-eee2-40f5-bd57-a578067edc4b",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "513aaaa8-e01c-4871-a4ad-824a5c25b440",
+        "name": "conductor_13",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -6
+          },
+          {
+            "x": 0,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "376e3412-1df5-4604-a716-0854efd69a9b",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "73968004-7f5a-4328-b4b7-4f8fb5c0c51b",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "313ec703-63fa-47cf-b70d-91bf490186cb",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "313ec703-63fa-47cf-b70d-91bf490186cb376e3412-1df5-4604-a716-0854efd69a9b73968004-7f5a-4328-b4b7-4f8fb5c0c51b",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "597d6d5f-e505-4ab1-9705-929affb43de2",
+        "name": "conductor_10",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -5,
+            "y": -5
+          },
+          {
+            "x": -10,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fd4d35e1-67e1-44ee-b5d6-776b2c089c72",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "cab0d2b4-499b-4dfb-9595-a0119b581374",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "cab0d2b4-499b-4dfb-9595-a0119b581374fd4d35e1-67e1-44ee-b5d6-776b2c089c72",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "5d79dd2b-0596-4c45-a84f-2b41999d55ee",
+        "name": "conductor_39",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -10,
+            "y": -10
+          },
+          {
+            "x": -12,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c67e4842-7113-4259-8baf-7cae56d8ee35",
+            "type": "linearShuntCompensator"
+          },
+          {
+            "mrid": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34c67e4842-7113-4259-8baf-7cae56d8ee35",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "5e46220e-2f3a-47f7-8f65-e0c89ff17bcf",
+        "name": "conductor_2",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "f9a3be24-7d24-4d49-a031-0798a62550f0",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "16662dd3-5585-4a77-9f70-157d8565e4e0f9a3be24-7d24-4d49-a031-0798a62550f0",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "6669a847-28ef-420a-8373-83f3b78004a7",
+        "name": "conductor_48",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 10,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "e9fd1ba9-e8bf-4b4e-a9bb-2e46f3e47193",
+            "type": "load"
+          },
+          {
+            "mrid": "a74c24f0-e738-4c30-ae8b-0fd955a29db2",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "a74c24f0-e738-4c30-ae8b-0fd955a29db2e9fd1ba9-e8bf-4b4e-a9bb-2e46f3e47193",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "71b7a221-cca4-42be-b20f-b382a7d72dd3",
+        "name": "conductor_49",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -5
+          },
+          {
+            "x": 5,
+            "y": -4
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "851c9d81-c13b-49c4-941d-fbce6d2bfc12",
+            "type": "breaker"
+          },
+          {
+            "mrid": "186df14e-4b50-4733-aed5-c5d48ad363c1",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "186df14e-4b50-4733-aed5-c5d48ad363c1851c9d81-c13b-49c4-941d-fbce6d2bfc12",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "73968004-7f5a-4328-b4b7-4f8fb5c0c51b",
+        "name": "conductor_43",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -7
+          },
+          {
+            "x": 1,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "6110b1f0-1bc2-467b-98fd-656f931dad78",
+            "type": "loadBreakSwitch"
+          },
+          {
+            "mrid": "513aaaa8-e01c-4871-a4ad-824a5c25b440",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "513aaaa8-e01c-4871-a4ad-824a5c25b4406110b1f0-1bc2-467b-98fd-656f931dad78",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "76b2e24d-6819-4f92-a4d8-c96254077a89",
+        "name": "conductor_29",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -7.5
+          },
+          {
+            "x": 5,
+            "y": -6
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "e28f0812-8d78-4cf3-a4c0-ea04d5dfc780",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "884a844c-6829-4951-8af4-252043e4fbc1",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "884a844c-6829-4951-8af4-252043e4fbc1e28f0812-8d78-4cf3-a4c0-ea04d5dfc780",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "7d112c81-0c6f-4d13-a6a1-ac94b04b8ee6",
+        "name": "conductor_24",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -10
+          },
+          {
+            "x": 2,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+            "type": "breaker"
+          },
+          {
+            "mrid": "986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "986d00b9-4f75-4478-a528-2b2ea6a48d3ca0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "8357d9c9-acb7-4f2f-909a-5444f2a339f5",
+        "name": "conductor_30",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -10
+          },
+          {
+            "x": 10,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "bc02645a-b384-40ba-a654-a4e2f72805b5",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "836ba58a-b4ef-4133-888c-820df6980068",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "8da9ad31-fbdc-40a4-bfe6-b651244d15e0",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "383730b3-5798-4a7c-bcb0-d32197ce6ee6",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "383730b3-5798-4a7c-bcb0-d32197ce6ee6836ba58a-b4ef-4133-888c-820df69800688da9ad31-fbdc-40a4-bfe6-b651244d15e0bc02645a-b384-40ba-a654-a4e2f72805b5",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "836ba58a-b4ef-4133-888c-820df6980068",
+        "name": "conductor_32",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 10,
+            "y": -10
+          },
+          {
+            "x": 12,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "d89c3396-1560-4288-b292-549576cd4109",
+            "type": "linearShuntCompensator"
+          },
+          {
+            "mrid": "8357d9c9-acb7-4f2f-909a-5444f2a339f5",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "8357d9c9-acb7-4f2f-909a-5444f2a339f5d89c3396-1560-4288-b292-549576cd4109",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "841f9767-c714-4beb-8a80-693194c8081b",
+        "name": "conductor_19",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -15
+          },
+          {
+            "x": 0,
+            "y": -16.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "966bcf17-11a2-4d62-a05c-b809b6790d85",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "6e86c913-aaf2-445f-b8f9-d4f754096186",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "6e86c913-aaf2-445f-b8f9-d4f754096186966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "842c504d-eee2-40f5-bd57-a578067edc4b",
+        "name": "conductor_4",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": -2.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "468ce432-75e5-4f96-b99e-3807bdd28e0d",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+            "type": "voltageRegulator"
+          }
+        ],
+        "connectedString": "468ce432-75e5-4f96-b99e-3807bdd28e0dbd20d8a6-21ad-4aa3-a494-649af8039ffecae018bb-c751-49f2-ab7e-c9ecfc674b68fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "85e94e05-089d-44ba-b7b5-ab1b78258cff",
+        "name": "conductor_12",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -5
+          },
+          {
+            "x": 0,
+            "y": -6
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "313ec703-63fa-47cf-b70d-91bf490186cb",
+            "type": "breaker"
+          },
+          {
+            "mrid": "3ccc8930-8e8b-4185-9e7e-6d09ea375fab",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "313ec703-63fa-47cf-b70d-91bf490186cb3ccc8930-8e8b-4185-9e7e-6d09ea375fab",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "88ed3c3e-b8ad-4fde-a114-f3b082db76c8",
+        "name": "conductor_35",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 10,
+            "y": -7.5
+          },
+          {
+            "x": 10,
+            "y": -6
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "b8f15a3e-68e9-400f-aa51-9bb7c5b832d1",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "3419929c-da14-4581-9300-a5b9e1090162",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "3419929c-da14-4581-9300-a5b9e1090162b8f15a3e-68e9-400f-aa51-9bb7c5b832d1",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "8cd332b6-7ac7-4ed6-a2f8-9e5c0977697a",
+        "name": "conductor_44",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 1,
+            "y": -7
+          },
+          {
+            "x": 3,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "01b28d3c-b8d2-4137-a928-73a4cd9935c7",
+            "type": "load"
+          },
+          {
+            "mrid": "6110b1f0-1bc2-467b-98fd-656f931dad78",
+            "type": "loadBreakSwitch"
+          }
+        ],
+        "connectedString": "01b28d3c-b8d2-4137-a928-73a4cd9935c76110b1f0-1bc2-467b-98fd-656f931dad78",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "8da9ad31-fbdc-40a4-bfe6-b651244d15e0",
+        "name": "conductor_33",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 10,
+            "y": -10
+          },
+          {
+            "x": 10,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "97b59eae-6cf5-43cf-a89f-d5193fa28e11",
+            "type": "breaker"
+          },
+          {
+            "mrid": "8357d9c9-acb7-4f2f-909a-5444f2a339f5",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "8357d9c9-acb7-4f2f-909a-5444f2a339f597b59eae-6cf5-43cf-a89f-d5193fa28e11",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "94254544-ef44-41df-b2e9-c94e0f9fdc65",
+        "name": "conductor_22",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -14
+          },
+          {
+            "x": 0.5,
+            "y": -14
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "342f3ede-4b11-4dde-9d34-c192a350cebb",
+            "type": "load"
+          },
+          {
+            "mrid": "a2bdbb0e-6f7f-4f2b-b3ab-08b0ff758e95",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "342f3ede-4b11-4dde-9d34-c192a350cebba2bdbb0e-6f7f-4f2b-b3ab-08b0ff758e95",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+        "name": "conductor_15",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -9
+          },
+          {
+            "x": 0,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "2dd7dbb8-6e32-443c-b5da-e57b30c3d557",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "41b1d0cd-cfb5-4ecb-8433-4971e49a78ae",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "7d112c81-0c6f-4d13-a6a1-ac94b04b8ee6",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "a4e5fc20-2e76-4193-be73-9a81028823f7",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "fa1d8d79-8099-4040-b97f-4f0de037f331",
+            "type": "recloser"
+          }
+        ],
+        "connectedString": "2dd7dbb8-6e32-443c-b5da-e57b30c3d55741b1d0cd-cfb5-4ecb-8433-4971e49a78ae7d112c81-0c6f-4d13-a6a1-ac94b04b8ee6a4e5fc20-2e76-4193-be73-9a81028823f7fa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a0af5867-7054-49ee-bde9-a415c6753420",
+        "name": "conductor_34",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 10,
+            "y": -9
+          },
+          {
+            "x": 10,
+            "y": -7.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3419929c-da14-4581-9300-a5b9e1090162",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "97b59eae-6cf5-43cf-a89f-d5193fa28e11",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "3419929c-da14-4581-9300-a5b9e109016297b59eae-6cf5-43cf-a89f-d5193fa28e11",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a2bdbb0e-6f7f-4f2b-b3ab-08b0ff758e95",
+        "name": "conductor_17",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -11
+          },
+          {
+            "x": 0,
+            "y": -14
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "efacbc2f-f4cf-47cc-8ce5-9ac208367b6e",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "94254544-ef44-41df-b2e9-c94e0f9fdc65",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+            "type": "recloser"
+          }
+        ],
+        "connectedString": "94254544-ef44-41df-b2e9-c94e0f9fdc65b1096574-b0cf-4675-8c7d-9f2d812fdc0fefacbc2f-f4cf-47cc-8ce5-9ac208367b6e",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a4e5fc20-2e76-4193-be73-9a81028823f7",
+        "name": "conductor_36",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -10
+          },
+          {
+            "x": -5,
+            "y": -10
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "2f240e10-00a9-4d17-b1fc-18d87dba35a4",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "45d26047-ed20-46df-ad7b-68483aa0d90a",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "1e02e82d-3ec9-4a49-81e0-fea8863d6c342f240e10-00a9-4d17-b1fc-18d87dba35a445d26047-ed20-46df-ad7b-68483aa0d90a986d00b9-4f75-4478-a528-2b2ea6a48d3c",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a6c81a17-dc66-47ff-8aef-a247bedb139d",
+        "name": "conductor_38",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -10,
+            "y": -10
+          },
+          {
+            "x": -10,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "a06e75c5-9504-483f-a4b0-db2d816f8291",
+            "type": "load"
+          },
+          {
+            "mrid": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34a06e75c5-9504-483f-a4b0-db2d816f8291",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a74c24f0-e738-4c30-ae8b-0fd955a29db2",
+        "name": "conductor_47",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 7,
+            "y": -5
+          },
+          {
+            "x": 10,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "6669a847-28ef-420a-8373-83f3b78004a7",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "c693ba13-3a86-4e96-b58e-c85e12e826e5",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "6669a847-28ef-420a-8373-83f3b78004a7c693ba13-3a86-4e96-b58e-c85e12e826e5",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "acd46c18-8ddf-4559-92f5-cad98f43b974",
+        "name": "conductor_50",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -4
+          },
+          {
+            "x": 5,
+            "y": -2.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c77fc426-f3c1-419c-b840-5ae4d3615797",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "851c9d81-c13b-49c4-941d-fbce6d2bfc12",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "851c9d81-c13b-49c4-941d-fbce6d2bfc12c77fc426-f3c1-419c-b840-5ae4d3615797",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "acd82903-6693-4e75-9c6b-484c88ae1571",
+        "name": "conductor_51",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -2.5
+          },
+          {
+            "x": 5,
+            "y": -1
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c0555b22-c291-4111-9d06-757e9bb16869",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "c77fc426-f3c1-419c-b840-5ae4d3615797",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "c0555b22-c291-4111-9d06-757e9bb16869c77fc426-f3c1-419c-b840-5ae4d3615797",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "b0bf1bbc-eb07-4e56-9682-548b07c15856",
+        "name": "conductor_27",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -10
+          },
+          {
+            "x": 5,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a",
+            "type": "breaker"
+          },
+          {
+            "mrid": "383730b3-5798-4a7c-bcb0-d32197ce6ee6",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "383730b3-5798-4a7c-bcb0-d32197ce6ee64c42fd6c-075f-49e0-8e10-e8890f0a0c8a",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "b540de9a-7a0f-4c4f-9caa-9a60ae68959d",
+        "name": "conductor_ESS_615",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -10,
+            "y": -10
+          },
+          {
+            "x": -10,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "a5bb4b08-ca31-40f6-bc5d-8477452ea162",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "1e02e82d-3ec9-4a49-81e0-fea8863d6c34a5bb4b08-ca31-40f6-bc5d-8477452ea162",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "bb4a9fe3-bb13-499c-8fec-2b850729d261",
+        "name": "conductor_28",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -9
+          },
+          {
+            "x": 5,
+            "y": -7.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "884a844c-6829-4951-8af4-252043e4fbc1",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a884a844c-6829-4951-8af4-252043e4fbc1",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "bc02645a-b384-40ba-a654-a4e2f72805b5",
+        "name": "conductor_31",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 10,
+            "y": -10
+          },
+          {
+            "x": 10,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "52d8f4b7-1fc0-48e4-a5ba-8c87a52789a9",
+            "type": "load"
+          },
+          {
+            "mrid": "8357d9c9-acb7-4f2f-909a-5444f2a339f5",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "52d8f4b7-1fc0-48e4-a5ba-8c87a52789a98357d9c9-acb7-4f2f-909a-5444f2a339f5",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "be7bb93a-1b52-402f-8634-5f00c85caf63",
+        "name": "conductor_20",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -16.5
+          },
+          {
+            "x": 1,
+            "y": -18
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "760b289f-eb3b-4100-9bfe-64a2327edd91",
+            "type": "generatingUnit"
+          },
+          {
+            "mrid": "966bcf17-11a2-4d62-a05c-b809b6790d85",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "760b289f-eb3b-4100-9bfe-64a2327edd91966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "c8f56ac1-5634-4cf9-ae27-3f7eab47ba16",
+        "name": "conductor_46",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -5
+          },
+          {
+            "x": 7,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c693ba13-3a86-4e96-b58e-c85e12e826e5",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "186df14e-4b50-4733-aed5-c5d48ad363c1",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "186df14e-4b50-4733-aed5-c5d48ad363c1c693ba13-3a86-4e96-b58e-c85e12e826e5",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "cab0d2b4-499b-4dfb-9595-a0119b581374",
+        "name": "conductor_8",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -2,
+            "y": -5
+          },
+          {
+            "x": -5,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "e938a9e9-510b-4bc6-bff7-269e3a9c21c6",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "597d6d5f-e505-4ab1-9705-929affb43de2",
+            "type": "lineSegment"
+          },
+          {
+            "mrid": "dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "597d6d5f-e505-4ab1-9705-929affb43de2dd894cc5-d97d-4ea3-a5b9-e6fc466a332fe938a9e9-510b-4bc6-bff7-269e3a9c21c6",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "cb29e077-0ff0-4c84-9040-05458b61e0a3",
+        "name": "conductor_26",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 5,
+            "y": -10
+          },
+          {
+            "x": 5,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "4fa4e36f-9861-4da4-b834-4ee301ed340b",
+            "type": "load"
+          },
+          {
+            "mrid": "383730b3-5798-4a7c-bcb0-d32197ce6ee6",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "383730b3-5798-4a7c-bcb0-d32197ce6ee64fa4e36f-9861-4da4-b834-4ee301ed340b",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "d807d332-7032-4d6a-a314-1b2e7fd3b230",
+        "name": "conductor_1",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 4
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "18a74588-a787-4c9f-b953-93b69b29ce7b",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "16662dd3-5585-4a77-9f70-157d8565e4e018a74588-a787-4c9f-b953-93b69b29ce7b",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 115000
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "e938a9e9-510b-4bc6-bff7-269e3a9c21c6",
+        "name": "conductor_9",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -5,
+            "y": -5
+          },
+          {
+            "x": -5,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "2a266eb3-b666-4bae-8f75-b6fb07915313",
+            "type": "load"
+          },
+          {
+            "mrid": "cab0d2b4-499b-4dfb-9595-a0119b581374",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "2a266eb3-b666-4bae-8f75-b6fb07915313cab0d2b4-499b-4dfb-9595-a0119b581374",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "efacbc2f-f4cf-47cc-8ce5-9ac208367b6e",
+        "name": "conductor_18",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": -14
+          },
+          {
+            "x": 0,
+            "y": -15
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "6e86c913-aaf2-445f-b8f9-d4f754096186",
+            "type": "breaker"
+          },
+          {
+            "mrid": "a2bdbb0e-6f7f-4f2b-b3ab-08b0ff758e95",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "6e86c913-aaf2-445f-b8f9-d4f754096186a2bdbb0e-6f7f-4f2b-b3ab-08b0ff758e95",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "f9a3be24-7d24-4d49-a031-0798a62550f0",
+        "name": "conductor_3",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "5e46220e-2f3a-47f7-8f65-e0c89ff17bcf",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "5e46220e-2f3a-47f7-8f65-e0c89ff17bcfbd20d8a6-21ad-4aa3-a494-649af8039ffecae018bb-c751-49f2-ab7e-c9ecfc674b68fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "fd4d35e1-67e1-44ee-b5d6-776b2c089c72",
+        "name": "conductor_11",
+        "equipmentType": "lineSegment",
+        "location": [
+          {
+            "x": -10,
+            "y": -5
+          },
+          {
+            "x": -10,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "398b9855-636f-42d1-aa7e-cc378b9e9022",
+            "type": "load"
+          },
+          {
+            "mrid": "597d6d5f-e505-4ab1-9705-929affb43de2",
+            "type": "lineSegment"
+          }
+        ],
+        "connectedString": "398b9855-636f-42d1-aa7e-cc378b9e9022597d6d5f-e505-4ab1-9705-929affb43de2",
+        "siblings": [],
+        "phase": "ABC",
+        "baseVoltage": 4160
+      }
+    ],
+    "loadBreakSwitch": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "6110b1f0-1bc2-467b-98fd-656f931dad78",
+        "name": "Sdist",
+        "equipmentType": "loadBreakSwitch",
+        "location": [
+          {
+            "x": 1,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "01b28d3c-b8d2-4137-a928-73a4cd9935c7",
+            "type": "load"
+          },
+          {
+            "mrid": "7ca22055-3a7d-4f84-9b84-a1a2275391fa",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "01b28d3c-b8d2-4137-a928-73a4cd9935c7313ec703-63fa-47cf-b70d-91bf490186cb7ca22055-3a7d-4f84-9b84-a1a2275391fa",
+        "siblings": [
+          "6110b1f0-1bc2-467b-98fd-656f931dad78"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "normalOpen": false
+      }
+    ],
+    "intersections": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+        "name": "N692_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": 7.333333492279053,
+            "y": -10.333333015441895
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+            "type": "breaker"
+          },
+          {
+            "mrid": "4fa4e36f-9861-4da4-b834-4ee301ed340b",
+            "type": "load"
+          },
+          {
+            "mrid": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a",
+            "type": "breaker"
+          },
+          {
+            "mrid": "52d8f4b7-1fc0-48e4-a5ba-8c87a52789a9",
+            "type": "load"
+          },
+          {
+            "mrid": "d89c3396-1560-4288-b292-549576cd4109",
+            "type": "linearShuntCompensator"
+          },
+          {
+            "mrid": "97b59eae-6cf5-43cf-a89f-d5193fa28e11",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a4fa4e36f-9861-4da4-b834-4ee301ed340b52d8f4b7-1fc0-48e4-a5ba-8c87a52789a997b59eae-6cf5-43cf-a89f-d5193fa28e11a0f00b95-bb73-4e6e-82bb-1c320fcf6adcd89c3396-1560-4288-b292-549576cd4109",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 4
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "323bba13-a180-42ae-bda3-d551845c4c39",
+        "name": "N632_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": 2,
+            "y": -4.599999904632568
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+            "type": "recloser"
+          },
+          {
+            "mrid": "dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+            "type": "breaker"
+          },
+          {
+            "mrid": "313ec703-63fa-47cf-b70d-91bf490186cb",
+            "type": "breaker"
+          },
+          {
+            "mrid": "c693ba13-3a86-4e96-b58e-c85e12e826e5",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "851c9d81-c13b-49c4-941d-fbce6d2bfc12",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb0313ec703-63fa-47cf-b70d-91bf490186cb851c9d81-c13b-49c4-941d-fbce6d2bfc12c693ba13-3a86-4e96-b58e-c85e12e826e5dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 4
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+        "name": "N684_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": -4.333333492279053,
+            "y": -11.05555534362793
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fa1d8d79-8099-4040-b97f-4f0de037f331",
+            "type": "recloser"
+          },
+          {
+            "mrid": "b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+            "type": "recloser"
+          },
+          {
+            "mrid": "6a6ce283-ca69-4002-ae48-32c9eb58b32f",
+            "type": "load"
+          },
+          {
+            "mrid": "a0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+            "type": "breaker"
+          },
+          {
+            "mrid": "a06e75c5-9504-483f-a4b0-db2d816f8291",
+            "type": "load"
+          },
+          {
+            "mrid": "c67e4842-7113-4259-8baf-7cae56d8ee35",
+            "type": "linearShuntCompensator"
+          },
+          {
+            "mrid": "a5bb4b08-ca31-40f6-bc5d-8477452ea162",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "a0cb45a6-a964-4621-949c-805b23a191c8",
+            "type": "load"
+          },
+          {
+            "mrid": "fb99f1a1-fbd0-481e-9206-067466e97bab",
+            "type": "load"
+          }
+        ],
+        "connectedString": "6a6ce283-ca69-4002-ae48-32c9eb58b32fa06e75c5-9504-483f-a4b0-db2d816f8291a0cb45a6-a964-4621-949c-805b23a191c8a0f00b95-bb73-4e6e-82bb-1c320fcf6adca5bb4b08-ca31-40f6-bc5d-8477452ea162b1096574-b0cf-4675-8c7d-9f2d812fdc0fc67e4842-7113-4259-8baf-7cae56d8ee35fa1d8d79-8099-4040-b97f-4f0de037f331fb99f1a1-fbd0-481e-9206-067466e97bab",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 4
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "4102d113-7a3b-4d59-8047-5f64860192b6",
+        "name": "N645_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": -5.666666507720947,
+            "y": -6.333333492279053
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+            "type": "breaker"
+          },
+          {
+            "mrid": "2a266eb3-b666-4bae-8f75-b6fb07915313",
+            "type": "load"
+          },
+          {
+            "mrid": "398b9855-636f-42d1-aa7e-cc378b9e9022",
+            "type": "load"
+          }
+        ],
+        "connectedString": "2a266eb3-b666-4bae-8f75-b6fb07915313398b9855-636f-42d1-aa7e-cc378b9e9022dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 3
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "52283a35-2356-4377-9a74-da2d74985c30",
+        "name": "N680_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": 0.1666666716337204,
+            "y": -13.333333015441895
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+            "type": "recloser"
+          },
+          {
+            "mrid": "6e86c913-aaf2-445f-b8f9-d4f754096186",
+            "type": "breaker"
+          },
+          {
+            "mrid": "342f3ede-4b11-4dde-9d34-c192a350cebb",
+            "type": "load"
+          }
+        ],
+        "connectedString": "342f3ede-4b11-4dde-9d34-c192a350cebb6e86c913-aaf2-445f-b8f9-d4f754096186b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 3
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "7ca22055-3a7d-4f84-9b84-a1a2275391fa",
+        "name": "Ndist_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": 0.3333333432674408,
+            "y": -7.333333492279053
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "313ec703-63fa-47cf-b70d-91bf490186cb",
+            "type": "breaker"
+          },
+          {
+            "mrid": "fa1d8d79-8099-4040-b97f-4f0de037f331",
+            "type": "recloser"
+          },
+          {
+            "mrid": "6110b1f0-1bc2-467b-98fd-656f931dad78",
+            "type": "loadBreakSwitch"
+          }
+        ],
+        "connectedString": "313ec703-63fa-47cf-b70d-91bf490186cb6110b1f0-1bc2-467b-98fd-656f931dad78fa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 3
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "8c73bb21-0355-4a4b-8ea8-0b7c1d5e863a",
+        "name": "xfm680_ld",
+        "equipmentType": "intersections",
+        "location": [
+          {
+            "x": 0,
+            "y": -17.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "966bcf17-11a2-4d62-a05c-b809b6790d85",
+            "type": "powerTransformer"
+          },
+          {
+            "mrid": "760b289f-eb3b-4100-9bfe-64a2327edd91",
+            "type": "generatingUnit"
+          },
+          {
+            "mrid": "3bda2cb0-6e39-40ca-84de-d58b99e7e40e",
+            "type": "powerElectronicsConnection"
+          }
+        ],
+        "connectedString": "3bda2cb0-6e39-40ca-84de-d58b99e7e40e760b289f-eb3b-4100-9bfe-64a2327edd91966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "siblings": [],
+        "phase": "ABC",
+        "connectedCount": 3
+      }
+    ],
+    "powerElectronicsConnection": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "3bda2cb0-6e39-40ca-84de-d58b99e7e40e",
+        "name": "ess690",
+        "equipmentType": "powerElectronicsConnection",
+        "location": [
+          {
+            "x": -1,
+            "y": -18
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "8c73bb21-0355-4a4b-8ea8-0b7c1d5e863a",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "8c73bb21-0355-4a4b-8ea8-0b7c1d5e863a966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "siblings": [
+          "3bda2cb0-6e39-40ca-84de-d58b99e7e40e"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "maxIFault": 1.1111111,
+        "p": -100000,
+        "q": 0,
+        "ratedS": 500000,
+        "ratedU": 500000,
+        "unit": {
+          "unitId": "bd756264-93d6-4d45-bd5a-f2827cd99a51",
+          "unitType": "BatteryUnit",
+          "ratedE": 1000000,
+          "storedE": 758000
+        }
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a5bb4b08-ca31-40f6-bc5d-8477452ea162",
+        "name": "ess615",
+        "equipmentType": "powerElectronicsConnection",
+        "location": [
+          {
+            "x": -10,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3963b75c-913b-4a8b-9463-cc45eb6dc21dfa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "a5bb4b08-ca31-40f6-bc5d-8477452ea162"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "maxIFault": 1.1111111,
+        "p": -500,
+        "q": 500,
+        "ratedS": 500,
+        "ratedU": 2000,
+        "unit": {
+          "unitId": "bd756264-93d6-4d45-bd5a-f2827cd99a51",
+          "unitType": "BatteryUnit",
+          "ratedE": 1000000,
+          "storedE": 758000
+        }
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "b8f15a3e-68e9-400f-aa51-9bb7c5b832d1",
+        "name": "pv675",
+        "equipmentType": "powerElectronicsConnection",
+        "location": [
+          {
+            "x": 10,
+            "y": -6
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3419929c-da14-4581-9300-a5b9e1090162",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "3419929c-da14-4581-9300-a5b9e1090162",
+        "siblings": [
+          "b8f15a3e-68e9-400f-aa51-9bb7c5b832d1"
+        ],
+        "phase": "ABC",
+        "maxIFault": 1.1111111,
+        "p": -100000,
+        "q": 0,
+        "ratedS": 300000,
+        "ratedU": 300000,
+        "unit": {
+          "unitId": "918f7d3f-fd11-4c1e-8e67-614b1e094080",
+          "unitType": "PhotoVoltaicUnit"
+        }
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "c0555b22-c291-4111-9d06-757e9bb16869",
+        "name": "pv633",
+        "equipmentType": "powerElectronicsConnection",
+        "location": [
+          {
+            "x": 5,
+            "y": -1
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c77fc426-f3c1-419c-b840-5ae4d3615797",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "c77fc426-f3c1-419c-b840-5ae4d3615797",
+        "siblings": [
+          "c0555b22-c291-4111-9d06-757e9bb16869"
+        ],
+        "phase": "ABC",
+        "maxIFault": 1.1111111,
+        "p": -100000,
+        "q": 0,
+        "ratedS": 2000000,
+        "ratedU": 2000000,
+        "unit": {
+          "unitId": "6a624675-84e4-40b2-b2ca-e271585d8004",
+          "unitType": "PhotoVoltaicUnit"
+        }
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "e28f0812-8d78-4cf3-a4c0-ea04d5dfc780",
+        "name": "pv692",
+        "equipmentType": "powerElectronicsConnection",
+        "location": [
+          {
+            "x": 5,
+            "y": -6
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "884a844c-6829-4951-8af4-252043e4fbc1",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "884a844c-6829-4951-8af4-252043e4fbc1",
+        "siblings": [
+          "e28f0812-8d78-4cf3-a4c0-ea04d5dfc780"
+        ],
+        "phase": "ABC",
+        "maxIFault": 1.1111111,
+        "p": -100000,
+        "q": 0,
+        "ratedS": 300000,
+        "ratedU": 300000,
+        "unit": {
+          "unitId": "e8861b00-1510-440a-a5b7-2eac2bb15da3",
+          "unitType": "PhotoVoltaicUnit"
+        }
+      }
+    ],
+    "powerTransformer": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+        "name": "subxfrmr",
+        "equipmentType": "powerTransformer",
+        "location": [
+          {
+            "x": 0,
+            "y": 4
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "18a74588-a787-4c9f-b953-93b69b29ce7b",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "18a74588-a787-4c9f-b953-93b69b29ce7bbd20d8a6-21ad-4aa3-a494-649af8039ffecae018bb-c751-49f2-ab7e-c9ecfc674b68fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+        "siblings": [
+          "16662dd3-5585-4a77-9f70-157d8565e4e0"
+        ],
+        "phase": "ABC",
+        "voltRange": [
+          4160,
+          115000
+        ]
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "3419929c-da14-4581-9300-a5b9e1090162",
+        "name": "xfm675",
+        "equipmentType": "powerTransformer",
+        "location": [
+          {
+            "x": 10,
+            "y": -7.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "b8f15a3e-68e9-400f-aa51-9bb7c5b832d1",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "97b59eae-6cf5-43cf-a89f-d5193fa28e11",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "97b59eae-6cf5-43cf-a89f-d5193fa28e11b8f15a3e-68e9-400f-aa51-9bb7c5b832d1",
+        "siblings": [
+          "3419929c-da14-4581-9300-a5b9e1090162"
+        ],
+        "phase": "ABC",
+        "voltRange": [
+          480,
+          4160
+        ]
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "884a844c-6829-4951-8af4-252043e4fbc1",
+        "name": "xfm692",
+        "equipmentType": "powerTransformer",
+        "location": [
+          {
+            "x": 5,
+            "y": -7.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "e28f0812-8d78-4cf3-a4c0-ea04d5dfc780",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8a",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "4c42fd6c-075f-49e0-8e10-e8890f0a0c8ae28f0812-8d78-4cf3-a4c0-ea04d5dfc780",
+        "siblings": [
+          "884a844c-6829-4951-8af4-252043e4fbc1"
+        ],
+        "phase": "ABC",
+        "voltRange": [
+          480,
+          4160
+        ]
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "966bcf17-11a2-4d62-a05c-b809b6790d85",
+        "name": "xfm680",
+        "equipmentType": "powerTransformer",
+        "location": [
+          {
+            "x": 0,
+            "y": -16.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "6e86c913-aaf2-445f-b8f9-d4f754096186",
+            "type": "breaker"
+          },
+          {
+            "mrid": "8c73bb21-0355-4a4b-8ea8-0b7c1d5e863a",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3bda2cb0-6e39-40ca-84de-d58b99e7e40e6e86c913-aaf2-445f-b8f9-d4f754096186760b289f-eb3b-4100-9bfe-64a2327edd918c73bb21-0355-4a4b-8ea8-0b7c1d5e863a",
+        "siblings": [
+          "966bcf17-11a2-4d62-a05c-b809b6790d85"
+        ],
+        "phase": "ABC",
+        "voltRange": [
+          480,
+          4160
+        ]
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "c693ba13-3a86-4e96-b58e-c85e12e826e5",
+        "name": "xfm1",
+        "equipmentType": "powerTransformer",
+        "location": [
+          {
+            "x": 7,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "e9fd1ba9-e8bf-4b4e-a9bb-2e46f3e47193",
+            "type": "load"
+          },
+          {
+            "mrid": "323bba13-a180-42ae-bda3-d551845c4c39",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb0323bba13-a180-42ae-bda3-d551845c4c39e9fd1ba9-e8bf-4b4e-a9bb-2e46f3e47193",
+        "siblings": [
+          "c693ba13-3a86-4e96-b58e-c85e12e826e5"
+        ],
+        "phase": "ABC",
+        "voltRange": [
+          480,
+          4160
+        ]
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "c77fc426-f3c1-419c-b840-5ae4d3615797",
+        "name": "xfm633",
+        "equipmentType": "powerTransformer",
+        "location": [
+          {
+            "x": 5,
+            "y": -2.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c0555b22-c291-4111-9d06-757e9bb16869",
+            "type": "powerElectronicsConnection"
+          },
+          {
+            "mrid": "851c9d81-c13b-49c4-941d-fbce6d2bfc12",
+            "type": "breaker"
+          }
+        ],
+        "connectedString": "851c9d81-c13b-49c4-941d-fbce6d2bfc12c0555b22-c291-4111-9d06-757e9bb16869",
+        "siblings": [
+          "c77fc426-f3c1-419c-b840-5ae4d3615797"
+        ],
+        "phase": "ABC",
+        "voltRange": [
+          480,
+          4160
+        ]
+      }
+    ],
+    "recloser": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+        "name": "rec1",
+        "equipmentType": "recloser",
+        "location": [
+          {
+            "x": 0,
+            "y": -3
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "323bba13-a180-42ae-bda3-d551845c4c39",
+            "type": "intersections"
+          },
+          {
+            "mrid": "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+            "type": "voltageRegulator"
+          },
+          {
+            "mrid": "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+            "type": "voltageRegulator"
+          }
+        ],
+        "connectedString": "313ec703-63fa-47cf-b70d-91bf490186cb323bba13-a180-42ae-bda3-d551845c4c39851c9d81-c13b-49c4-941d-fbce6d2bfc12bd20d8a6-21ad-4aa3-a494-649af8039ffecae018bb-c751-49f2-ab7e-c9ecfc674b68fd32c1f5-7cb1-4fa4-b578-0e5ac023c47fc693ba13-3a86-4e96-b58e-c85e12e826e5dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "siblings": [
+          "14e10597-b3a2-49df-9c96-11726f937fb0"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+        "name": "rec3",
+        "equipmentType": "recloser",
+        "location": [
+          {
+            "x": 0,
+            "y": -11
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          },
+          {
+            "mrid": "52283a35-2356-4377-9a74-da2d74985c30",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "342f3ede-4b11-4dde-9d34-c192a350cebb3963b75c-913b-4a8b-9463-cc45eb6dc21d52283a35-2356-4377-9a74-da2d74985c306e86c913-aaf2-445f-b8f9-d4f754096186fa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "b1096574-b0cf-4675-8c7d-9f2d812fdc0f"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "fa1d8d79-8099-4040-b97f-4f0de037f331",
+        "name": "rec2",
+        "equipmentType": "recloser",
+        "location": [
+          {
+            "x": 0,
+            "y": -9
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          },
+          {
+            "mrid": "7ca22055-3a7d-4f84-9b84-a1a2275391fa",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "313ec703-63fa-47cf-b70d-91bf490186cb3963b75c-913b-4a8b-9463-cc45eb6dc21d6a6ce283-ca69-4002-ae48-32c9eb58b32f7ca22055-3a7d-4f84-9b84-a1a2275391faa06e75c5-9504-483f-a4b0-db2d816f8291a0cb45a6-a964-4621-949c-805b23a191c8a0f00b95-bb73-4e6e-82bb-1c320fcf6adca5bb4b08-ca31-40f6-bc5d-8477452ea162b1096574-b0cf-4675-8c7d-9f2d812fdc0fc67e4842-7113-4259-8baf-7cae56d8ee35fb99f1a1-fbd0-481e-9206-067466e97bab",
+        "siblings": [
+          "fa1d8d79-8099-4040-b97f-4f0de037f331"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "breakingCapacity": 400,
+        "normalOpen": false
+      }
+    ],
+    "voltageRegulator": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+        "name": "vr1c",
+        "equipmentType": "voltageRegulator",
+        "location": [
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+            "type": "recloser"
+          },
+          {
+            "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+        "siblings": [
+          "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+          "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+          "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f"
+        ],
+        "phase": "C",
+        "baseVoltage": 4160,
+        "volts": 4160,
+        "normalStep": 0,
+        "lowStep": -16,
+        "highStep": 16,
+        "svi": 0.625
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+        "name": "vr1b",
+        "equipmentType": "voltageRegulator",
+        "location": [
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+            "type": "recloser"
+          },
+          {
+            "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+        "siblings": [
+          "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+          "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+          "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f"
+        ],
+        "phase": "B",
+        "baseVoltage": 4160,
+        "volts": 4160,
+        "normalStep": 0,
+        "lowStep": -16,
+        "highStep": 16,
+        "svi": 0.625
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f",
+        "name": "vr1a",
+        "equipmentType": "voltageRegulator",
+        "location": [
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "14e10597-b3a2-49df-9c96-11726f937fb0",
+            "type": "recloser"
+          },
+          {
+            "mrid": "16662dd3-5585-4a77-9f70-157d8565e4e0",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "14e10597-b3a2-49df-9c96-11726f937fb016662dd3-5585-4a77-9f70-157d8565e4e0",
+        "siblings": [
+          "bd20d8a6-21ad-4aa3-a494-649af8039ffe",
+          "cae018bb-c751-49f2-ab7e-c9ecfc674b68",
+          "fd32c1f5-7cb1-4fa4-b578-0e5ac023c47f"
+        ],
+        "phase": "A",
+        "baseVoltage": 4160,
+        "volts": 4160,
+        "normalStep": 0,
+        "lowStep": -16,
+        "highStep": 16,
+        "svi": 0.625
+      }
+    ],
+    "load": [
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "01b28d3c-b8d2-4137-a928-73a4cd9935c7",
+        "name": "l674",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": 3,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "6110b1f0-1bc2-467b-98fd-656f931dad78",
+            "type": "loadBreakSwitch"
+          }
+        ],
+        "connectedString": "6110b1f0-1bc2-467b-98fd-656f931dad78",
+        "siblings": [
+          "01b28d3c-b8d2-4137-a928-73a4cd9935c7"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "2a266eb3-b666-4bae-8f75-b6fb07915313",
+        "name": "l645",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": -5,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "4102d113-7a3b-4d59-8047-5f64860192b6",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "4102d113-7a3b-4d59-8047-5f64860192b6dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "siblings": [
+          "2a266eb3-b666-4bae-8f75-b6fb07915313"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "342f3ede-4b11-4dde-9d34-c192a350cebb",
+        "name": "ml680",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": 0.5,
+            "y": -14
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "52283a35-2356-4377-9a74-da2d74985c30",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "52283a35-2356-4377-9a74-da2d74985c30b1096574-b0cf-4675-8c7d-9f2d812fdc0f",
+        "siblings": [
+          "342f3ede-4b11-4dde-9d34-c192a350cebb"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 0,
+        "vars": 0,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "398b9855-636f-42d1-aa7e-cc378b9e9022",
+        "name": "l646",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": -10,
+            "y": -7
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "4102d113-7a3b-4d59-8047-5f64860192b6",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "4102d113-7a3b-4d59-8047-5f64860192b6dd894cc5-d97d-4ea3-a5b9-e6fc466a332f",
+        "siblings": [
+          "398b9855-636f-42d1-aa7e-cc378b9e9022"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "4fa4e36f-9861-4da4-b834-4ee301ed340b",
+        "name": "l692",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": 5,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "181ff5ab-23d8-44e7-9546-973017a8c45fa0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "siblings": [
+          "4fa4e36f-9861-4da4-b834-4ee301ed340b"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "52d8f4b7-1fc0-48e4-a5ba-8c87a52789a9",
+        "name": "l675",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": 10,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "181ff5ab-23d8-44e7-9546-973017a8c45f",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "181ff5ab-23d8-44e7-9546-973017a8c45fa0f00b95-bb73-4e6e-82bb-1c320fcf6adc",
+        "siblings": [
+          "52d8f4b7-1fc0-48e4-a5ba-8c87a52789a9"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "6a6ce283-ca69-4002-ae48-32c9eb58b32f",
+        "name": "l671",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": 1,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3963b75c-913b-4a8b-9463-cc45eb6dc21dfa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "6a6ce283-ca69-4002-ae48-32c9eb58b32f"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a06e75c5-9504-483f-a4b0-db2d816f8291",
+        "name": "l611",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": -10,
+            "y": -12
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3963b75c-913b-4a8b-9463-cc45eb6dc21dfa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "a06e75c5-9504-483f-a4b0-db2d816f8291"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "a0cb45a6-a964-4621-949c-805b23a191c8",
+        "name": "l652",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": -5,
+            "y": -17
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3963b75c-913b-4a8b-9463-cc45eb6dc21dfa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "a0cb45a6-a964-4621-949c-805b23a191c8"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "e9fd1ba9-e8bf-4b4e-a9bb-2e46f3e47193",
+        "name": "l634",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": 10,
+            "y": -5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "c693ba13-3a86-4e96-b58e-c85e12e826e5",
+            "type": "powerTransformer"
+          }
+        ],
+        "connectedString": "c693ba13-3a86-4e96-b58e-c85e12e826e5",
+        "siblings": [
+          "e9fd1ba9-e8bf-4b4e-a9bb-2e46f3e47193"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 480,
+        "watts": 960000,
+        "vars": 280000,
+        "isUncontrollable": true,
+        "normalOpen": false
+      },
+      {
+        "regions": [
+          "290347ae-a0a6-4036-8d0c-0b45bd052376"
+        ],
+        "mrid": "fb99f1a1-fbd0-481e-9206-067466e97bab",
+        "name": "ml684",
+        "equipmentType": "load",
+        "location": [
+          {
+            "x": -5,
+            "y": -9.5
+          }
+        ],
+        "connectedEquipment": [
+          {
+            "mrid": "3963b75c-913b-4a8b-9463-cc45eb6dc21d",
+            "type": "intersections"
+          }
+        ],
+        "connectedString": "3963b75c-913b-4a8b-9463-cc45eb6dc21dfa1d8d79-8099-4040-b97f-4f0de037f331",
+        "siblings": [
+          "fb99f1a1-fbd0-481e-9206-067466e97bab"
+        ],
+        "phase": "ABC",
+        "baseVoltage": 4160,
+        "watts": 0,
+        "vars": 0,
+        "isUncontrollable": true,
+        "normalOpen": false
+      }
+    ],
+    "region": {
+      "mrid": "290347ae-a0a6-4036-8d0c-0b45bd052376",
+      "name": "13 Node Test Feeder"
+    }
+  }
+}

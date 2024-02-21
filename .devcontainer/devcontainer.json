@@ -1,0 +1,16 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.205.2/containers/typescript-node
+{
+    "name": "OpenDSO GMS Applications",
+    "runArgs": ["--network=host"],
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "..",
+      // Update 'VARIANT' to pick a Node version: 20, 18, 16
+      // -Debian version: bookworm (12), bullseye (11), buster (10)
+      "args": {
+        "VARIANT": "20-bookworm"
+      }
+    }
+}
+  
