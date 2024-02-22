@@ -1,3 +1,3 @@
-# CimEtch
+# PixiJS Bug Example
 
-Typescript library for rendering CIMex objects. Built on top of PixiJS.
+Reproducible PixiJS bug example
